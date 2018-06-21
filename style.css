@@ -26,3 +26,42 @@ body {
     left: auto;
     right: 5%;
 }
+.menu ul{
+  list-style-type: none;
+  display: inline-flex;
+}
+.menu li{ padding:20px}
+.menu a{ text-decoration: none;}
+.menu a{color: #D8E2DC;}
+.menu a:hover{ text-decoration: underline;}
+a:visited {color: #D8E2DC;}
+.menu{ background-color:#8819ff}
+.gametitle{
+  background-image:url("flower backdrop.png");
+  height:400px;
+  width:400px;
+  align-self: center;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  margin: 5% auto;
+  position: fixed;
+  margin-top: -200px; /* Negative half of height. */
+  margin-left: -200px;
+}
+.des{
+
+  height:50px;
+  width:1000px;
+  align-self: center;
+  font-size: 50px;
+  top: 80%;
+  left: 55%;
+  margin: 7% auto;
+  position: fixed;
+  margin-top: -30px; /* Negative half of height. */
+  margin-left: -500px;
+}
+.menu.h1{
+ color:#D8E2DC;
+}
