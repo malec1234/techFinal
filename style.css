@@ -1,0 +1,28 @@
+body {
+  background-color: #D4E3F4;
+  font-family: 'Raleway', sans-serif;
+  color: #6A717C
+
+}
+
+.gametitle {
+  text-align: center;
+  font-size: 72px;
+}
+
+#forgetmenot {
+    position: relative;
+}
+#forgetmenot::before, #forgetmenot::after {
+    content: '';
+    position: absolute;
+    display: block;
+    background: url('flower backdrop.png');
+    left: 20%;
+    top: calc(50% - 25px);
+}
+#forgetmenot::after {
+    background: url('flower backdrop.png');
+    left: auto;
+    right: 5%;
+}
